@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+h1#BigTitle{
+    font-size: 5rem;
+    display: flex;
+    color: rebeccapurple;
+}
+
+div#bigTitle{
+    width: 100%;
+    height: 25%;
+    background-image: url(IMGS/sergei-akulich--heLWtuAN3c-unsplash.jpg);
+}
+
+div.ColumnGroup2{
+    width: 100%;
+    display: flex;
+}
+
+div.columnHalf{
+    width: 50%;
+}
+
+img#picture{
+    width: 100%;
+}
+
+h2.Chapters{
+    color: saddlebrown;
+}
+
+h1#Chapters{
+    color: saddlebrown;
+    font-style: oblique;
+    font-size: 3rem;
+}
+
+div.credits{
+    width: 100%;
+}
