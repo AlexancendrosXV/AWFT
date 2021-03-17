@@ -1,0 +1,75 @@
+<!Doctype HTML>
+<!Alexander Scordakis>
+<!Another World's Fairy Tale Audiobook>
+<html>
+    
+    <head>
+        <title>Another World's Fairy Tale</title>
+        <link rel="stylesheet" type="text/css" href="CSS/AWFT.css" src="CSS/AWFT.css">
+        <link rel="icon" href="CSS/IMGS/icon.png">
+        <link rel="manifest" href="manifest.json">
+        <link rel="apple-touch-icon" href="CSS/IMGS/AWFT_Album_cover.png">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="white" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="AWFT">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="CSS/IMGS/icon.png">
+    </head>
+    
+    <body onload="regSW();">
+        
+        <div id="bigTitle">
+            <h1 id="BigTitle">Another World's Fairy Tale</h1>
+            <hr>
+        </div>
+        
+        <div class="ColumnGroup2">
+            
+            <div class="columnHalf">
+                
+                <h1 id="Chapters"><u>Arcs:</u></h1>
+                
+                <ul>
+                    
+                    <li>
+                        <h2 class="Chapters">Prologue</h2>
+                        <audio controls>
+                            <source src="Audio/Prologue.opus" type="audio/ogg; codecs=opus">
+                        </audio>
+                    </li>
+                    
+                    <li>
+                        <h2 class="Chapters">The Selenese Queendom</h2>
+                        <audio controls>
+                            <source src="Audio/Selenese%20Queendom%20Arc(no%20copyright%20content%20used).opus" type="audio/ogg; codecs=opus">
+                        </audio>
+                    
+                    </li>
+                
+                </ul>
+            
+            </div>
+            
+            <div class="columnHalf" id="pictureColumn">
+                
+                <img src="CSS/IMGS/AWFT_Album_cover.png" id="picture">
+                
+            </div>
+        
+        </div>
+        
+        <div class="credits">
+            <hr>
+            <ul style="color: white;">
+                <li>Author: Siege Heavenly</li>
+                <li>Recorded By: Siege Heavenyl</li>
+            </ul>
+        </div>
+        
+        <script src="sw.js"></script>
+    </body>
+    
+</html>
